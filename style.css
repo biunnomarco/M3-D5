@@ -1,0 +1,214 @@
+div.burger-container {
+    position: absolute;
+    right: 1em;
+    top: 0.6em;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+div.nav-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.notification {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.153);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(156, 142, 142);
+}
+
+.notification span {
+    font-size: 1.2REM;
+}
+
+.green-dot {
+    width: 9px;
+    height: 9px;
+    border: solid white 1px;
+    border-radius: 50%;
+    background-color: rgb(56, 169, 56);
+    position: absolute;
+    right: 0rem;
+    top: 1.8rem;
+}
+
+.blue-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(87, 0, 128);
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+}
+
+/* div.user-credential {
+    display: flex;
+    font-size: 0.7rem;
+} */
+div.item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+hr {
+    margin: 4px;
+}
+
+ul.user-menu span {
+    font-size: 0.8rem;
+}
+
+.username {
+    line-height: 1.2;
+}
+
+/*sezione n 2 WELCOME WEB STUDENT*/
+.main1 {
+    background-color: #7550fe;
+    width: 100%;
+}
+
+.btn-green {
+    background-color: #1aca97;
+    color: white;
+}
+
+.small-btn {
+    font-size: 0.8rem;
+    padding: 10px 20px;
+}
+
+#hero {
+    width: 100%;
+}
+
+/*Sezione n3 LE TER ICONE */
+.icon-banner {
+    width: 35px;
+    height: 35px;
+    background-color: #ffeeda;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-banner span {
+    font-size: 1em;
+    color: #98570c;
+}
+
+.text-banner {
+    font-size: 0.8em;
+}
+
+/* Sezione n 4 Il carosello di Carte */
+.star-fill {
+    color: rgb(255, 196, 0);
+    font-variation-settings: 
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' -25,
+    'opsz' 40
+}
+.star {
+    color: rgb(255, 196, 0);
+}
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+    .carousel-inner .carousel-item>div:nth-child(2) {
+        display: block
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+
+.card {
+    margin: 5px;
+}
+.carousel-control-next-icon {
+    position: absolute;
+    right: -15px;
+}
+.carousel-control-prev-icon {
+    position: absolute;
+    left: -15px;
+}
+
+div.card-body p {
+    font-size: 0.8em;
+    text-align: start;
+}
+div.card-details {
+    font-size: 0.6em;
+    gap: 4px;
+}
+.card-details span {
+    font-size: 1.5em;
+}
+.full-price {
+    color: gray;
+    text-decoration: line-through;
+}
+#avatar {
+    width: 25px;
+    border-radius: 50%;
+}
+.avatar-container {
+    font-size: 0.7em;
+    color: grey;
+    gap: 5px;
+}
+.card-text {
+    height: 70px;
+}
+
+
+/* Sezione 5 Footer */
+.copy, .links a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: gray;
+}
+.links {
+    gap: 8px;
+}
